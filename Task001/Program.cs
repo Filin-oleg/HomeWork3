@@ -6,6 +6,6 @@ if (str.Length != 5) {Console.WriteLine("Вы ввели не пятизначн
 else
 {
     if (str[0] == str[4] && str[1] == str[3])
-    { Console.WriteLine("Данное число является полиндромом"); }
-    else { Console.WriteLine("Данное число не является полиндромом"); }
+    { Console.WriteLine("Данное число является палиндромом"); }
+    else { Console.WriteLine("Данное число не является палиндромом"); }
 }
